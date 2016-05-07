@@ -27,7 +27,6 @@ var links = document.evaluate('//a[contains(@target, "_blank")]',
   null,
   XPathResult.ORDERED_NODE_SNAPSHOT_TYPE, null);
 for (var i = 0; i < links.snapshotLength; i++) {
-  console.log(links.snapshotItem(i));
   links.snapshotItem(i).pseudoStyle('after', 'content', '"\\2197"');
   links.snapshotItem(i).pseudoStyle('after', 'font-size', '.7em');
   // links.snapshotItem(i).style.borderBottom = '1px solid red';
