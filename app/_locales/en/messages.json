@@ -1,0 +1,10 @@
+{
+  "appName": {
+    "message": "external link indicator",
+    "description": "The name of the application"
+  },
+  "appDescription": {
+    "message": "adding icons to indicate links opened in new tab",
+    "description": "The description of the application"
+  }
+}
